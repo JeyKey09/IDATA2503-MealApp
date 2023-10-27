@@ -284,4 +284,6 @@ StatelessWidget <|-- MealItemTrait
 
 ## Group discussion
 
-As of the 27.10.2023 15:55 I have not gotten any messages back from my peer review partner. Last thing I heard was on the 26.10.2023 that he was sick. Therefore I have not been able to discuss the code with him.
+We decided to work on alone on each of our functionality to make sure we got the most out of the assignment. We did however discuss the assignment and the different solutions we had come up with. We also discussed the different problems we had encountered and how we solved them.
+
+In our discussion we found out that my code could a more optimized by adding each step as a widget. This would allow my the checkboxes and text to updated while not needing to update everything else around it.
