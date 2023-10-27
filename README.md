@@ -32,7 +32,7 @@ Since this application is mostly written using a tutorial given within a Udemy c
 
 #### Solution
 
-This can be done trough modifying the [meal_details.dart](./lib/screens/meal_detail.dart) screen so it has checkmark boxes for every step. This makes it so that the user can check the steps they have done. When the user does so the checkmark will be marked as done and a the step text will get a line trough it to make it more clear for the user.
+This can be done trough modifying the [meal_details.dart](./lib/screens/meal_details.dart) screen so it has checkmark boxes for every step. This makes it so that the user can check the steps they have done. When the user does so the checkmark will be marked as done and a the step text will get a line trough it to make it more clear for the user.
 
 ## File Structure
 
@@ -60,7 +60,7 @@ This folder contains everything that has data models within it such as:
 This folder contains everything related to handling data and sending updates aka provider classes
 
 - [favorites_provider.dart](./lib/providers/favorites_provider.dart) that handles the favorites
-- [filter_provider.dart](./lib/providers/filter_provider.dart) that handles the filters
+- [filters_provider.dart](./lib/providers/filters_provider.dart) that handles the filters
 - [meals_provider.dart](./lib/providers/meals_provider.dart) that handles the meals
 
 #### [screens](./lib/screens/)
@@ -69,7 +69,7 @@ This folder contains everything that is a type of screen within it
 
 - [categories.dart](./lib/screens/categories.dart) that represents the categories screen
 - [filters.dart](./lib/screens/filters.dart) that represents the filters screen
-- [meal_details.dart](./lib/screens/meal_detail.dart) that represents the meal detail screen
+- [meal_details.dart](./lib/screens/meal_details.dart) that represents the meal detail screen
 - [meals.dart](./lib/screens/meals.dart) that represents the meals screen
 - [tabs.dart](./lib/screens/tabs.dart) that represents the different tabs that can be accessed on the screen
 
@@ -77,7 +77,7 @@ This folder contains everything that is a type of screen within it
 
 This folder contains everything that has widget (smaller part of a screen) in it:
 
-- [category_grid_item.dart](./lib/widgets/category_item.dart) that represents a category item
+- [category_grid_item.dart](./lib/widgets/category_grid_item.dart) that represents a category item
 - [main_drawer.dart](./lib/widgets/main_drawer.dart) that represents the main drawer
 - [meal_item_trait.dart](./lib/widgets/meal_item_trait.dart) that represents a meal item trait
 - [meal_item.dart](./lib/widgets/meal_item.dart) that represents a meal item
